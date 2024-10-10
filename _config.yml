@@ -1,4 +1,4 @@
-slogan: "Yet another bootstrap theme."
+slogan: "Life is a journey."
 
 theme: cerulean
 inverse: true
@@ -18,6 +18,10 @@ menu:
     url: tags
     intro: "All the tags."
     icon: "fa fa-tags"
+  - title: "图床"
+    url: "https://images.alanzeng.com
+    intro: "图床"
+    icon: "fa fa-image"
   - title: About
     url: about
     intro: "About me."
@@ -29,13 +33,13 @@ links:
     intro: "Freemind's Github repository."
     icon: "fa fa-github"
   - title: "My Github"
-    url: http://www.github.com/wzpan
+    url: http://www.github.com/AlanZeng423
     intro: "My Github account."
     icon: "fa fa-github"
-  - title: "My LinkedIn"
-    url: http://www.linkedin.com/in/hahack
-    intro: "My Linkin account."
-    icon: "fa fa-linkedin"
+  # - title: "My LinkedIn"
+  #   url: http://www.linkedin.com/in/hahack
+  #   intro: "My Linkin account."
+  #   icon: "fa fa-linkedin"
 
 widgets:
 - search
@@ -74,11 +78,11 @@ jiathis: false
 # built-in comment system
 comment_js:
   type: "github"
-  user: "wzpan"
-  repo: "hexo-theme-freemind-blog"
-  client_id: "bf7d4ba11877db88543e"
-  client_secret: "bff8a6b06b745c0bfcdccbe225623ea8e2a057bb"
-  count: 5
+  user: "AlanZeng243"
+  repo: "comments"
+  # client_id: "bf7d4ba11877db88543e"
+  # client_secret: "bff8a6b06b745c0bfcdccbe225623ea8e2a057bb"
+  # count: 5
 
 # If you want to use gitalk for comments, please uncomment the following, fill in the fields, and comment out the comment_js above.
 #comment_gitalk:
