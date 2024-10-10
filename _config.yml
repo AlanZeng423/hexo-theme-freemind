@@ -18,7 +18,7 @@ menu:
     url: tags
     intro: "All the tags."
     icon: "fa fa-tags"
-  - title: "图床"
+  - title: "Img Host"
     url: "https://images.alanzeng.com"
     intro: "图床"
     icon: "fa fa-image"
@@ -28,14 +28,19 @@ menu:
     icon: "fa fa-user"
 
 links:
-  - title: Freemind
-    url: https://github.com/wzpan/freemind/
-    intro: "Freemind's Github repository."
-    icon: "fa fa-github"
   - title: "My Github"
     url: http://www.github.com/AlanZeng423
     intro: "My Github account."
     icon: "fa fa-github"
+  - title: "My Email"
+    url: mailto:me@alanzeng.com
+    intro: "My Email."
+    icon: "fa fa-envelope"
+  - title: "My Twitter"
+    url: http://www.twitter.com/Alan92423
+    intro: "My Twitter account."
+    icon: "fa fa-twitter"
+  
   # - title: "My LinkedIn"
   #   url: http://www.linkedin.com/in/hahack
   #   intro: "My Linkin account."
