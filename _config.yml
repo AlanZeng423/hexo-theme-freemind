@@ -19,7 +19,7 @@ menu:
     intro: "All the tags."
     icon: "fa fa-tags"
   - title: "图床"
-    url: "https://images.alanzeng.com
+    url: "https://images.alanzeng.com"
     intro: "图床"
     icon: "fa fa-image"
   - title: About
