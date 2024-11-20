@@ -52,3 +52,38 @@ replaceMeta = function(){
 		}
 	}
 }
+
+
+document.addEventListener("DOMContentLoaded", () => {
+	// 查找所有的代码块
+	const codeBlocks = document.querySelectorAll("pre");
+
+	codeBlocks.forEach((block) => {
+	  // 创建一个按钮
+		const button = document.createElement("button");
+		button.className = "copy-btn";
+		button.textContent = "Copy";
+
+	  // 添加点击事件
+	button.addEventListener("click", () => {
+		const code = block.innerText || block.textContent; // 获取代码内容
+		navigator.clipboard.writeText(code).then(() => {
+			button.textContent = "Copied!";
+			setTimeout(() => {
+			button.textContent = "Copy";
+			}, 2000);
+		}).catch(err => {
+			console.error("Failed to copy code: ", err);
+			button.textContent = "Failed!";
+			setTimeout(() => {
+			button.textContent = "Copy";
+			}, 2000);
+		});
+		});
+
+	  // 将按钮插入到代码块外层
+	  block.style.position = "relative"; // 确保样式正确
+	  block.parentNode.style.position = "relative"; // 父容器相对定位
+		block.parentNode.insertBefore(button, block);
+	});
+});
